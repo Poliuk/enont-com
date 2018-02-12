@@ -1,0 +1,104 @@
+.body {
+  background-color: #1d1c1c;
+}
+
+.body.bg-1 {
+  background-image: url('../images/jakob-owens-225927-compressor-small-min-compressor.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.h1 {
+  position: absolute;
+  left: 24px;
+  top: -8px;
+  margin-bottom: 20px;
+  font-family: Sacramento, sans-serif;
+  color: #ececec;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  text-shadow: 0 0 0 #000;
+}
+
+.disclaimer {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100vw;
+  height: 20px;
+  padding-right: 8px;
+  background-color: #1d1c1c;
+  color: #fff;
+  font-size: 10px;
+  text-align: right;
+}
+
+.sacramento {
+  font-family: Sacramento, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+@media (max-width: 991px) {
+  .body.bg-1 {
+    background-position: -142px 0px;
+  }
+  .body.bg-2 {
+    background-position: 20% 50%;
+  }
+  .body.bg-3 {
+    background-position: 50% 50%;
+  }
+  .h1 {
+    top: -8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .body.bg-1 {
+    background-position: -213px 50%;
+  }
+  .body.bg-2 {
+    background-position: -249px 50%;
+  }
+  .h1 {
+    left: 16px;
+  }
+}
+
+@media (max-width: 479px) {
+  .body.bg-1 {
+    height: 100vw;
+    background-position: 42% 50%;
+  }
+  .body.bg-2 {
+    background-position: -510px 0px;
+  }
+  .h1 {
+    left: 15px;
+    top: -15px;
+  }
+}
